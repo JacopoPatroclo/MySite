@@ -4,9 +4,8 @@
     <p v-if="loading">Loading...</p>
     <div class="cont mar-normal" v-if="!loading">
       <div class="tiles card" v-for="repo in repos" v-if="!repo.fork" :key="repo.id">
-          <a class="fullspace" target="_blank" :href="repo.html_url">{{ repo.full_name }}</a>
-          <p class="fullspace"><span class="titoletto">Creato il:</span> {{ date(repo.created_at) }}</p>
-          <p class="fullspace"><span class="titoletto">Modificato il:</span> {{ date(repo.updated_at) }}</p>
+          <a class="fullspace" target="_blank" rel="noopener" :href="repo.html_url">{{ repo.full_name }}</a>
+          <p class="fullspace">{{ repo.description || 'Nessuna descrizione' }}</p>
         </div>
     </div>
   </div>
@@ -63,6 +62,10 @@ export default {
   text-align: left;
   padding: 5px;
   padding-left: 20px;
+}
+
+h2 {
+  text-align: left;
 }
 
 .titoletto {

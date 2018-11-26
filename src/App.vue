@@ -5,14 +5,14 @@
         <h1 class="pad-small pad-only-top">Jacopo Martinelli</h1>
         <p class="self-right pad-small mobile-pad-small pad-only-bottom">Full-Stack Javascript developer</p>
         <div class="cont pad-small self-right pad-only-top">
-          <a class="pad-small pad-only-right" href="mailto:Jacopo.patroclo.martinelli@gmail.com" >Email</a>
-          <a class="pad-small pad-only-right" target="_blank" href="https://github.com/JacopoPatroclo" >GitHub</a>
-          <a class="pad-small pad-only-right" target="_blank" href="https://telegram.me/Patroclazzo" >Telegram</a>
-          <a class="pad-small pad-only-right" target="_blank" href="https://www.linkedin.com/in/jacopo-martinelli-18952b93" >Linkedin</a>
-          <a class="" target="_blank" href="/cv.pdf" >CV</a>
+          <a class="self-right pad-small pad-only-right" href="mailto:Jacopo.patroclo.martinelli@gmail.com" >Email</a>
+          <a class="self-right pad-small pad-only-right" target="_blank" href="https://github.com/JacopoPatroclo" >GitHub</a>
+          <a class="self-right pad-small pad-only-right" target="_blank" href="https://telegram.me/Patroclazzo" >Telegram</a>
+          <a class="self-right pad-small pad-only-right" target="_blank" href="https://www.linkedin.com/in/jacopo-martinelli-18952b93" >Linkedin</a>
+          <a class="self-right pad-small pad-only-right" target="_blank" v-bind:href="cv" >CV</a>
         </div>
       </div>
-      <img class="mar-huge mar-only-left img-circular small-quad" src="./assets/profilePic.jpg">
+      <img class="mar-huge mar-only-left img-circular small-quad" v-bind:src="imgProfile">
     </div>
     <div class="paragraph mar-huge">
       <router-view></router-view>
@@ -25,6 +25,8 @@
 
 <script>
 import RecentActivity from "./components/RecentActivity";
+import cv from "./assets/Jacopo_Martinelli_CV.pdf";
+import imgProfile from "./assets/profilePic.jpg";
 
 export default {
   name: "app",
@@ -33,7 +35,9 @@ export default {
   },
   data() {
     return {
-      visitorsNumber: 20
+      visitorsNumber: 20,
+      cv,
+      imgProfile
     };
   }
 };
@@ -56,7 +60,11 @@ a {
 }
 
 h1,
-h2,
+h2 {
+  margin: 0px;
+  text-align: right;
+}
+
 p {
   margin: 0px;
 }
@@ -163,6 +171,10 @@ p {
 }
 
 @media only screen and (max-width: 700px) {
+  body {
+    padding: 10px;
+  }
+
   .paragraph {
     width: 100%;
   }
@@ -176,12 +188,12 @@ p {
     width: 100%;
   }
 
-  .self-right {
-    align-self: flex-start;
-  }
-
   .mobile-pad-small {
     padding: 10px;
+  }
+
+  .mar-normal {
+    margin: 0px;
   }
 }
 </style>

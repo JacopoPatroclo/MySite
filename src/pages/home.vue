@@ -1,70 +1,63 @@
 <template>
   <div class="cont col">
     <div class="paragraph">
-      <h3>In generale...</h3>
+      <h3>Professional Profile</h3>
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, 
-        quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-        qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt,
-        ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-        nisi ut aliquid ex ea commodi consequatur?
+        I’m really into design patterns and I’m always trying to improve the code quality by applying paradigms to solve coding problem.
+        For this reason I found Javascript the best language to apply a lot of different techniques.
+        In particular I like to work with NodeJs, Angular, and React.
+        <br><br>I'm always experimenting with new technologies and frameworks. Learning is my main occupation.
+        <br><br>I love working in a team, sharing knowledge and best practices.
       </p>
     </div>
     <div class="paragraph">
       <h3>Wannabe...</h3>
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, 
-        quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-        qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt,
-        ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-        nisi ut aliquid ex ea commodi consequatur?
+        I'm looking to became an expert in software development,
+        not only for the web but also for "native" technologies such as iOS and Android.<br>
       </p>
     </div>
     <div class="paragraph">
       <h3>Stack...</h3>
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, 
-        quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-        qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt,
-        ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-        nisi ut aliquid ex ea commodi consequatur?
+        In my day to day work I use primarly Javascript based technologies.<br>
+        NodeJs for the server side and Angular, React or Vue based on the project requirements.<br>
+        For large and "enterprish" web application I choos Angular for the strong structure that provide out of the box.
+        Instead for small or personal project I jump between React and Vue quite often.<br>
       </p>
       <div class="cont mar-huge mar-only-top">
-        <div class=" cont section card">
+        <div class="cont section card">
           <h4>Frontend</h4>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, 
-            quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-            qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt,
-            ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-            nisi ut aliquid ex ea commodi consequatur?
-          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS (Flexbox)</li>
+            <li>Swift</li>
+            <li>AngularJS</li>
+            <li>ReactJS</li>
+            <li>React Native</li>
+            <li>VueJS</li>
+            <li>Typescript</li>
+          </ul>
         </div>
         <div class="cont section card">
           <h4>Backend</h4>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, 
-            quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-            qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt,
-            ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-            nisi ut aliquid ex ea commodi consequatur?
-          </p>
+          <ul>
+            <li>NodeJS</li>
+            <li>PHP</li>
+            <li>Express</li>
+            <li>Sql</li>
+            <li>C++</li>
+          </ul>
         </div>
         <div class="cont section card">
           <h4>Jolly</h4>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, 
-            quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit,
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, 
-            qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt,
-            ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-            nisi ut aliquid ex ea commodi consequatur?
-          </p>
+          <ul>
+            <li>OCaml</li>
+            <li>Assembly</li>
+            <li>WordPress</li>
+            <li>Arduino</li>
+            <li>Docker</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -86,10 +79,12 @@ export default {
   display: flex;
   padding: 20px;
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .cont {
-  justify-content: space-between;
+  justify-content: start;
 }
 
 @media only screen and (max-width: 1000px) {
